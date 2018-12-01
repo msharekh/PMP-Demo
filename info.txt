@@ -1,0 +1,78 @@
+Process Groups:
+
+Initiating
+Planning
+Executing
+Monitoring and Controlling
+Closing
+
+Process Descriptions:
+
+INTEGRATION MANAGEMENT
+    Develop Project Charter – Authorizing the project and providing the PM with authority to use resources. (I)
+    Develop Project Mgmt. Plan – Integrating subsidiary plans into a comprehensive project plan. (P)
+    Direct & Manage Project Work – Performing project work and implementing approved changes. (E)
+    Manage Project Knowledge – Creating and using knowledge to support the project and the organization. (E)
+    Monitor & Control Project Work – Tracking and reporting project progress against the objectives. (M&C)
+    Perform Integrated Change Control – Reviewing and approving change requests; communicating the decisions. (M&C)
+    Close Project or Phase – Formally completing the phase or project. (C)
+
+SCOPE MANAGEMENT
+    Plan Scope Management – Documenting how scope will be defined and controlled. (P)
+    Collect Requirements – Documenting stakeholder needs. (P)
+    Define Scope – Developing a detailed project and product description. (P)
+    Create WBS – Decomposing project work into smaller components. (P)
+    Validate Scope – Formalizing acceptance of completed deliverables. (M&C)
+    Control Scope – Monitoring project scope and managing changes to the scope baseline. (M&C)
+
+SCHEDULE MANAGEMENT
+    Plan Schedule Management – Documenting how the schedule will be developed and controlled. (P)
+    Define Activities – Identifying the steps required to produce project deliverables. (P)
+    Sequence Activities – Identifying relationships (or order) of project activities. (P)
+    Estimate Activity Durations – Approximating the # of work periods needed to complete activities. (P)
+    Develop Schedule – Analyzing activities sequences and estimates to create the schedule. (P)
+    Control Schedule – Monitoring progress of activities and managing changes to the schedule baseline. (M&C)
+
+COST MANAGEMENT
+    Plan Cost Management – Documenting how to estimate and control project costs. (P)
+    Estimate Costs – Approximating the finances needed to complete project activities. (P)
+    Determine Budget – Aggregating the costs of individual activities to generate the cost baseline. (P)
+    Control Costs – Monitoring project costs and managing changes to the cost baseline. (M&C)
+
+QUALITY MANAGEMENT
+    Plan Quality Management – Identifying quality requirements and documenting how to comply with them. (P)
+    Manage Quality – Converting the quality management plan into actionable quality activities. (E)
+    Control Quality – Monitoring outcomes of quality activities to evaluate performance. (M&C)
+
+RESOURCE MANAGEMENT
+    Plan Resource Management – Document responsibilities and create a staffing management plan. (P)
+    Estimate Activity Resources – Estimating the manpower, materials, and equipment needed to complete the project. (P)
+    Acquire Resources – Obtaining the manpower, materials, and equipment needed to complete the project. (E)
+    Develop Team – Improving team skills and relations to enhance project performance. (E)
+    Manage Team – Tracking team member performance, providing feedback, and resolving issues. (E)
+    Control Resources – Monitoring planned versus actual resource usage. (M&C)
+
+COMMUNICATIONS MANAGEMENT
+    Plan Communications Management – Developing a plan for communications based on the needs of stakeholders. (P)
+    Manage Communications – Creating and distributing project information. (E)
+    Monitor Communications – Monitoring communications to ensure stakeholder needs are met. (M&C)
+
+RISK MANAGEMENT
+    Plan Risk Management – Defining how to conduct risk management on the project. (P)
+    Identify Risks – Detecting risks that may affect the project. (P)
+    Perform Qualitative Risk Analysis – Prioritizing risks by evaluating their probability and impact. (P)
+    Perform Quantitative Risk Analysis – Numerically analyzing the effect of risks on project objectives. (P)
+    Plan Risk Responses – Defining strategies and actions to address project risks. (P)
+    Implement Risk Responses – Putting risk response plans into effect. (E)
+    Monitor Risks – Tracking existing risks and identifying/analyzing new risks. (M&C)
+
+PROCUREMENT MANAGEMENT
+    Plan Procurement Management – Documenting the procurement method and identifying potential sellers. (P)
+    Conduct Procurements – Collecting seller responses, choosing a seller, and awarding a contract. (E)
+    Control Procurements – Managing procurement relationships and monitoring contract performance. (M&C)
+
+STAKEHOLDER MANAGEMENT
+    Identify Stakeholders – Determining who will be affected by the project and noting their involvement/impact. (I)
+    Plan Stakeholder Engagement – Developing strategies to appropriately engage stakeholders during the project. (P)
+    Manage Stakeholder Engagement – Communicating with stakeholders and addressing issues. (E)
+    Monitor Stakeholder Engagement – Monitoring and adjusting plans for engaging stakeholders. (M&C)

@@ -1,0 +1,143 @@
+[
+    {
+        "Managements":[
+            {
+                "mid":"1",
+                "mname":"INTEGRATION MANAGEMENT",
+                "Processes":[
+                    {   
+                        "pid":"1","pname":"Develop Project Charter","pdesc":"Authorizing the project and providing the PM with authority to use resources","pphase":"(I)"}
+                        ,{"pid":"2","pname":"Develop Project Mgmt. Plan","pdesc":"Integrating subsidiary plans into a comprehensive project plan","pphase":"(P)"}
+                        ,{"pid":"3","pname":"Direct & Manage Project Work","pdesc":"Performing project work and implementing approved changes","pphase":"(E)"}
+                        ,{"pid":"4","pname":"Manage Project Knowledge","pdesc":"Creating and using knowledge to support the project and the organization","pphase":"(E)"}
+                        ,{"pid":"5","pname":"Monitor & Control Project Work","pdesc":"Tracking and reporting project progress against the objectives","pphase":"(M&C)"}
+                        ,{"pid":"6","pname":"Perform Integrated Change Control","pdesc":"Reviewing and approving change requests; communicating the decisions","pphase":"(M&C)"}
+                        ,{"pid":"7","pname":"Close Project or Phase","pdesc":"Formally completing the phase or project","pphase":"(C)"}
+                        
+                    ]
+                },
+                {
+                    "mid":"2",
+                    "mname":"SCOPE MANAGEMENT",
+                    "Processes":[
+                        {    "pid":"1","pname":"Plan Scope Management","pdesc":"Documenting how scope will be defined and controlled","pphase":"(P)"}
+                        ,{"pid":"2","pname":"Collect Requirements","pdesc":"Documenting stakeholder needs","pphase":"(P)"}
+                        ,{"pid":"3","pname":"Define Scope","pdesc":"Developing a detailed project and product description","pphase":"(P)"}
+                        ,{"pid":"4","pname":"Create WBS","pdesc":"Decomposing project work into smaller components","pphase":"(P)"}
+                        ,{"pid":"5","pname":"Validate Scope","pdesc":"Formalizing acceptance of completed deliverables","pphase":"(M&C)"}
+                        ,{"pid":"6","pname":"Control Scope","pdesc":"Monitoring project scope and managing changes to the scope baseline","pphase":"(M&C)"}
+                        
+                    ]
+                },
+                {
+                    "mid":"3",
+                    "mname":"SCHEDULE MANAGEMENT",
+                    "Processes":[
+                        {
+                            "pid":"1","pname":"Plan Schedule Management","pdesc":"Documenting how the schedule will be developed and controlled","pphase":"(P)"}
+                            ,{"pid":"2","pname":"Define Activities","pdesc":"Identifying the steps required to produce project deliverables","pphase":"(P)"}
+                            ,{"pid":"3","pname":"Sequence Activities","pdesc":"Identifying relationships (or order) of project activities","pphase":"(P)"}
+                            ,{"pid":"4","pname":"Estimate Activity Durations","pdesc":"Approximating the # of work periods needed to complete activities","pphase":"(P)"}
+                            ,{"pid":"5","pname":"Develop Schedule","pdesc":"Analyzing activities sequences and estimates to create the schedule","pphase":"(P)"}
+                            ,{"pid":"6","pname":"Control Schedule","pdesc":"Monitoring progress of activities and managing changes to the schedule baseline","pphase":"(M&C)"}
+                            
+                            
+                        ]
+                    },
+                    {
+                        "mid":"4",
+                        "mname":"COST MANAGEMENT",
+                        "Processes":[
+                            {
+                                "pid":"1","pname":"Plan Cost Management","pdesc":"Documenting how to estimate and control project costs","pphase":"(P)"}
+                                ,{"pid":"2","pname":"Estimate Costs","pdesc":"Approximating the finances needed to complete project activities","pphase":"(P)"}
+                                ,{"pid":"3","pname":"Determine Budget","pdesc":"Aggregating the costs of individual activities to generate the cost baseline","pphase":"(P)"}
+                                ,{"pid":"4","pname":"Control Costs","pdesc":"Monitoring project costs and managing changes to the cost baseline","pphase":"(M&C)"}
+                                
+                                
+                            ]
+                        },
+                        {
+                            "mid":"5",
+                            "mname":"QUALITY MANAGEMENT",
+                            "Processes":[
+                                {
+                                    "pid":"1","pname":"Plan Quality Management","pdesc":"Identifying quality requirements and documenting how to comply with them","pphase":"(P)"}
+                                    ,{"pid":"2","pname":"Manage Quality","pdesc":"Converting the quality management plan into actionable quality activities","pphase":"(E)"}
+                                    ,{"pid":"3","pname":"Control Quality","pdesc":"Monitoring outcomes of quality activities to evaluate performance","pphase":"(M&C)"}
+                                    
+                                    
+                                ]
+                            },
+                            {
+                                "mid":"6",
+                                "mname":"RESOURCE MANAGEMENT",
+                                "Processes":[
+                                    {
+                                        "pid":"1","pname":"Plan Resource Management","pdesc":"Document responsibilities and create a staffing management plan","pphase":"(P)"}
+                                        ,{"pid":"2","pname":"Estimate Activity Resources","pdesc":"Estimating the manpower, materials, and equipment needed to complete the project","pphase":"(P)"}
+                                        ,{"pid":"3","pname":"Acquire Resources","pdesc":"Obtaining the manpower, materials, and equipment needed to complete the project","pphase":"(E)"}
+                                        ,{"pid":"4","pname":"Develop Team","pdesc":"Improving team skills and relations to enhance project performance","pphase":"(E)"}
+                                        ,{"pid":"5","pname":"Manage Team","pdesc":"Tracking team member performance, providing feedback, and resolving issues","pphase":"(E)"}
+                                        ,{"pid":"6","pname":"Control Resources","pdesc":"Monitoring planned versus actual resource usage","pphase":"(M&C)"}
+                                        
+                                        
+                                    ]
+                                },
+                                {
+                                    "mid":"7",
+                                    "mname":"COMMUNICATIONS MANAGEMENT",
+                                    "Processes":[
+                                        {
+                                            "pid":"1","pname":"Plan Communications Management","pdesc":"Developing a plan for communications based on the needs of stakeholders","pphase":"(P)"}
+                                            ,{"pid":"2","pname":"Manage Communications","pdesc":"Creating and distributing project information","pphase":"(E)"}
+                                            ,{"pid":"3","pname":"Monitor Communications","pdesc":"Monitoring communications to ensure stakeholder needs are met","pphase":"(M&C)"}
+                                            
+                                            
+                                        ]
+                                    },
+                                    {
+                                        "mid":"8",
+                                        "mname":"RISK MANAGEMENT",
+                                        "Processes":[
+                                            {
+                                                "pid":"1","pname":"Plan Risk Management","pdesc":"Defining how to conduct risk management on the project","pphase":"(P)"}
+                                                ,{"pid":"2","pname":"Identify Risks","pdesc":"Detecting risks that may affect the project","pphase":"(P)"}
+                                                ,{"pid":"3","pname":"Perform Qualitative Risk Analysis","pdesc":"Prioritizing risks by evaluating their probability and impact","pphase":"(P)"}
+                                                ,{"pid":"4","pname":"Perform Quantitative Risk Analysis","pdesc":"Numerically analyzing the effect of risks on project objectives","pphase":"(P)"}
+                                                ,{"pid":"5","pname":"Plan Risk Responses","pdesc":"Defining strategies and actions to address project risks","pphase":"(P)"}
+                                                ,{"pid":"6","pname":"Implement Risk Responses","pdesc":"Putting risk response plans into effect","pphase":"(E)"}
+                                                ,{"pid":"7","pname":"Monitor Risks","pdesc":"Tracking existing risks and identifying/analyzing new risks","pphase":"(M&C)"}
+                                                
+                                                
+                                            ]
+                                        },
+                                        {
+                                            "mid":"9",
+                                            "mname":"PROCUREMENT MANAGEMENT",
+                                            "Processes":[
+                                                {
+                                                    "pid":"1","pname":"Plan Procurement Management","pdesc":"Documenting the procurement method and identifying potential sellers","pphase":"(P)"}
+                                                    ,{"pid":"2","pname":"Conduct Procurements","pdesc":"Collecting seller responses, choosing a seller, and awarding a contract","pphase":"(E)"}
+                                                    ,{"pid":"3","pname":"Control Procurements","pdesc":"Managing procurement relationships and monitoring contract performance","pphase":"(M&C)"}
+                                                    
+                                                    
+                                                ]
+                                            },
+                                            {
+                                                "mid":"10",
+                                                "mname":"STAKEHOLDER MANAGEMENT",
+                                                "Processes":[
+                                                    {
+                                                        "pid":"1","pname":"Identify Stakeholders","pdesc":"Determining who will be affected by the project and noting their involvement/impact","pphase":"(I)"}
+                                                        ,{"pid":"2","pname":"Plan Stakeholder Engagement","pdesc":"Developing strategies to appropriately engage stakeholders during the project","pphase":"(P)"}
+                                                        ,{"pid":"3","pname":"Manage Stakeholder Engagement","pdesc":"Communicating with stakeholders and addressing issues","pphase":"(E)"}
+                                                        ,{"pid":"4","pname":"Monitor Stakeholder Engagement","pdesc":"Monitoring and adjusting plans for engaging stakeholders","pphase":"(M&C)"}                
+                                                        
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                    
+                                    

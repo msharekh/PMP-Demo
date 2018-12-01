@@ -14,6 +14,8 @@ class Process{
         this.name=name;
         this.phase=phase;
     }
+
+    
 }
 //Develop Project Charter
 let developProjectCharter = new Process('Develop Project Charter','Initiating')
