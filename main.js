@@ -71,19 +71,39 @@ let developProjectCharter = new Process('Develop Project Charter','Initiating')
 // console.log('Project Integration Management','	',createVariableName('Project Integration Management'));
 
 // let mydata = require('data.json');
-var ajaxhttp = new XMLHttpRequest();
-// console.log(ajaxhttp);
-var url='data.json'
-ajaxhttp.open('GET',url,true);
-ajaxhttp.setRequestHeader('content-type','application/json');
-ajaxhttp.onreadystatechange = function () {
-    if (ajaxhttp.readyState==4 && ajaxhttp.status==200) {
-        var jcontent= JSON.parse(ajaxhttp.responseText);
-        //show data.json
-        console.log(jcontent);        
+
+
+
+// Managements
+var urlManagements='data/Managements.json'
+callJSONData('Managements',urlManagements)
+// Processes
+var urlProcesses='data/Processes.json'
+callJSONData('Processes',urlProcesses)
+
+// ProcessGroups
+var urlProcessGroups='data/ProcessGroups.json'
+callJSONData('ProcessGroups',urlProcessGroups)
+
+function callJSONData(title,url) {
+    var ajaxhttp = new XMLHttpRequest();
+    ajaxhttp.open('GET',url,true);
+    ajaxhttp.setRequestHeader('content-type','application/json');
+    ajaxhttp.onreadystatechange = function () {
+        if (ajaxhttp.readyState==4 && ajaxhttp.status==200) {
+            var jcontent= JSON.parse(ajaxhttp.responseText);
+            //show data.json
+            console.log('\n'+title+':\t'+jcontent.length);        
+            // console.log(jcontent); 
+            for (let i = 0; i < jcontent.length; i++) {
+                const itm = jcontent[i];
+                console.log(i+1+':','	',itm.name);
+            }       
+        }
     }
+    ajaxhttp.send(null)
 }
-ajaxhttp.send(null)
+
 
 // var mydata = JSON.parse(data);
 // Console.log(mydata[0].name);

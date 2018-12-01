@@ -1,12 +1,10 @@
 [
     {
-        "Managements":[
-            {
-                "mid":"1",
+            "Managements":[
+            {   "mid":"1",
                 "mname":"INTEGRATION MANAGEMENT",
                 "Processes":[
-                    {   
-                        "pid":"1","pname":"Develop Project Charter","pdesc":"Authorizing the project and providing the PM with authority to use resources","pphase":"(I)"}
+                        {"pid":"1","pname":"Develop Project Charter","pdesc":"Authorizing the project and providing the PM with authority to use resources","pphase":"(I)"}
                         ,{"pid":"2","pname":"Develop Project Mgmt. Plan","pdesc":"Integrating subsidiary plans into a comprehensive project plan","pphase":"(P)"}
                         ,{"pid":"3","pname":"Direct & Manage Project Work","pdesc":"Performing project work and implementing approved changes","pphase":"(E)"}
                         ,{"pid":"4","pname":"Manage Project Knowledge","pdesc":"Creating and using knowledge to support the project and the organization","pphase":"(E)"}
@@ -16,11 +14,10 @@
                         
                     ]
                 },
-                {
-                    "mid":"2",
+                {   "mid":"2",
                     "mname":"SCOPE MANAGEMENT",
                     "Processes":[
-                        {    "pid":"1","pname":"Plan Scope Management","pdesc":"Documenting how scope will be defined and controlled","pphase":"(P)"}
+                         {"pid":"1","pname":"Plan Scope Management","pdesc":"Documenting how scope will be defined and controlled","pphase":"(P)"}
                         ,{"pid":"2","pname":"Collect Requirements","pdesc":"Documenting stakeholder needs","pphase":"(P)"}
                         ,{"pid":"3","pname":"Define Scope","pdesc":"Developing a detailed project and product description","pphase":"(P)"}
                         ,{"pid":"4","pname":"Create WBS","pdesc":"Decomposing project work into smaller components","pphase":"(P)"}
@@ -33,15 +30,12 @@
                     "mid":"3",
                     "mname":"SCHEDULE MANAGEMENT",
                     "Processes":[
-                        {
-                            "pid":"1","pname":"Plan Schedule Management","pdesc":"Documenting how the schedule will be developed and controlled","pphase":"(P)"}
+                            {"pid":"1","pname":"Plan Schedule Management","pdesc":"Documenting how the schedule will be developed and controlled","pphase":"(P)"}
                             ,{"pid":"2","pname":"Define Activities","pdesc":"Identifying the steps required to produce project deliverables","pphase":"(P)"}
                             ,{"pid":"3","pname":"Sequence Activities","pdesc":"Identifying relationships (or order) of project activities","pphase":"(P)"}
                             ,{"pid":"4","pname":"Estimate Activity Durations","pdesc":"Approximating the # of work periods needed to complete activities","pphase":"(P)"}
                             ,{"pid":"5","pname":"Develop Schedule","pdesc":"Analyzing activities sequences and estimates to create the schedule","pphase":"(P)"}
                             ,{"pid":"6","pname":"Control Schedule","pdesc":"Monitoring progress of activities and managing changes to the schedule baseline","pphase":"(M&C)"}
-                            
-                            
                         ]
                     },
                     {
@@ -65,8 +59,7 @@
                                     "pid":"1","pname":"Plan Quality Management","pdesc":"Identifying quality requirements and documenting how to comply with them","pphase":"(P)"}
                                     ,{"pid":"2","pname":"Manage Quality","pdesc":"Converting the quality management plan into actionable quality activities","pphase":"(E)"}
                                     ,{"pid":"3","pname":"Control Quality","pdesc":"Monitoring outcomes of quality activities to evaluate performance","pphase":"(M&C)"}
-                                    
-                                    
+                                      
                                 ]
                             },
                             {
@@ -137,6 +130,7 @@
                                                     ]
                                                 }
                                             ]
+                                            
                                         }
                                     ]
                                     

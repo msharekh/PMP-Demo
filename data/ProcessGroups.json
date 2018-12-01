@@ -1,0 +1,27 @@
+[
+    {
+        "pgid":"1",
+        "name":"Initiating",
+        "desc":"define a new project or a new phase by obtaining authorization to start."
+    }
+    ,{
+        "pgid":"2",
+        "name":"Planning",
+        "desc":"establish the scope of the project and define the course of action." 
+    }
+    ,{
+        "pgid":"3",
+        "name":"Executing",
+        "desc":"complete the work defined in the project management plan." 
+    }
+    ,{
+        "pgid":"4",
+        "name":"Monitoring and Controlling",
+        "desc":"track, review, and regulate the progress of the project." 
+    }
+    ,{
+        "pgid":"5",
+        "name":"Closing",
+        "desc":"finalize all activities to formally close the project or phase." 
+    }
+]

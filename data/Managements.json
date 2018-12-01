@@ -1,0 +1,42 @@
+[
+    {
+        "mid":"1",
+        "name":"INTEGRATION MANAGEMENT"
+    }
+    ,{
+        "mid":"2",
+        "name":"SCOPE MANAGEMENT"
+    }
+    ,{
+        "mid":"3",
+        "name":"SCHEDULE MANAGEMENT"
+    }
+    ,{
+        "mid":"4",
+        "name":"COST MANAGEMENT"
+    }
+    ,{
+        "mid":"5",
+        "name":"QUALITY MANAGEMENT"
+    }
+    ,{
+        "mid":"6",
+        "name":"RESOURCE MANAGEMENT"
+    }
+    ,{
+        "mid":"7",
+        "name":"COMMUNICATIONS MANAGEMENT"
+    }
+    ,{
+        "mid":"8",
+        "name":"RISK MANAGEMENT"
+    }
+    ,{
+        "mid":"9",
+        "name":"PROCUREMENT MANAGEMENT"
+    }
+    ,{
+        "mid":"10",
+        "name":"STAKEHOLDER MANAGEMENT"
+    }
+]
