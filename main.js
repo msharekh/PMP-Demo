@@ -83,7 +83,7 @@ callJSONData('Processes',urlProcesses)
 
 // ProcessGroups
 var urlProcessGroups='data/ProcessGroups.json'
-callJSONData('ProcessGroups',urlProcessGroups)
+callJSONData('Process Groups',urlProcessGroups)
 
 function callJSONData(title,url) {
     var ajaxhttp = new XMLHttpRequest();
@@ -92,12 +92,16 @@ function callJSONData(title,url) {
     ajaxhttp.onreadystatechange = function () {
         if (ajaxhttp.readyState==4 && ajaxhttp.status==200) {
             var jcontent= JSON.parse(ajaxhttp.responseText);
+            var color=jcontent[0];
             //show data.json
-            console.log('\n'+title+':\t'+jcontent.length);        
+            // console.log('\n'+title+':\t'+jcontent.length);        
+            console.log(`\n%s (%s)`,title,jcontent.length);        
             // console.log(jcontent); 
-            for (let i = 0; i < jcontent.length; i++) {
+            for (let i = 1; i < jcontent.length; i++) {
                 const itm = jcontent[i];
-                console.log(i+1+':','	',itm.name);
+                // console.log(`%s:\t %s`,i+1,itm.name);
+                document.getElementById("demo").innerHTML +="<br /><span class='label "+color+"'>"+i+": &emsp;"+itm.name+"</span>"
+                // console.log(i+':\t',itm.name);
             }       
         }
     }
